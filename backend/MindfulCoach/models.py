@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-#am I mostly working here?
+#small change
 
 class User(models.Model):
     firstName = models.CharField(max_length=64);
